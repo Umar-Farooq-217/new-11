@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.digital{
+  display: grid;
+ 
+}
+.thirdContainer{
+  border: 3px solid white;
+}
+.cloot{
+  border: 1px solid white;
+}
+.bloginput{
+  border: 2px solid rgba(75,142,219,255);
+}
+.blg{
+  border: 2px solid  rgba(75,142,219,255);
+}
+.arrow{
+  position: relative;
+  top: 5px;
+  right: 40px;
+  cursor: pointer;
+}
+.read{
+  position: relative;
+  right: 55px;
+}
+.head{
+  background-image: url('../public/img/stars-twinkling-night-sky-background_180401-5882.jpg');
+
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: auto;
+  
+  background-size: cover;
+}
+.bar{
+  display: none;
+}
+
+@media(max-width:900px){
+  .ulul{
+    display: block;
+    padding-top: 30px;
+  
+    
+   
+  }
+  .item{
+    margin-top: 20px;
+    
+    margin-left: 60px;
+  }
+.home{
+padding-left: 0px;
+margin-top: 20px;
+
+}
+.bar{
+  display: block;
+  margin-left: 10px;
+}
+
+/* Add styles for open and closed states */
+.open {
+  display: block;
+  
+}
+
+.closed {
+  display: none;
+}
+.ghost{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.item:hover{
+  color: red;
+}
+#btn{
+  color: white;
+}
+#btn:hover{
+  color: red;
+}
+.thgh{
+  width: 100px;
+}
+.logo{
+  position: absolute;
+  left: 30px;
+
+}
+.good{
+position: relative;
+right: 20px;
+}
+
+
+}
+
+
+
+
